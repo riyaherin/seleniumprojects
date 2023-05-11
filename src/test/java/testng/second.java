@@ -12,7 +12,7 @@ public class second {
 WebDriver driver;
 	
 	//@BeforeClass
-	@Test(priority=10)
+	@Test(priority=1)
 	void openApp()
 	{
 		System.setProperty("webdriver.chrome.driver","/home/qb-riyathomas/Downloads/chromedriver");
@@ -22,7 +22,7 @@ WebDriver driver;
 		
 	}
 	
-	@Test(priority=50)
+	@Test(priority=2)
 	void login()
 	{
 		driver.findElement(By.name("username")).sendKeys("Admin");

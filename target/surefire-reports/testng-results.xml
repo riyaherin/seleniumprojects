@@ -2,37 +2,37 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-08T14:54:44 IST" name="Suite" finished-at="2023-05-08T14:54:53 IST" duration-ms="9084">
+  <suite started-at="2023-05-10T14:18:50 IST" name="Suite" finished-at="2023-05-10T14:19:04 IST" duration-ms="13674">
     <groups>
     </groups>
-    <test started-at="2023-05-08T14:54:44 IST" name="mavenfirstxml" finished-at="2023-05-08T14:54:53 IST" duration-ms="9084">
+    <test started-at="2023-05-10T14:18:50 IST" name="mavenfirstxml" finished-at="2023-05-10T14:19:04 IST" duration-ms="13674">
       <class name="testng.second">
-        <test-method signature="openApp()[pri:10, instance:testng.second@7c24b813]" started-at="2023-05-08T14:54:44 IST" name="openApp" finished-at="2023-05-08T14:54:51 IST" duration-ms="6614" status="PASS">
+        <test-method signature="openApp()[pri:1, instance:testng.second@306f16f3]" started-at="2023-05-10T14:18:50 IST" name="openApp" finished-at="2023-05-10T14:19:01 IST" duration-ms="10972" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="login()[pri:50, instance:testng.second@7c24b813]" started-at="2023-05-08T14:54:51 IST" name="login" finished-at="2023-05-08T14:54:53 IST" duration-ms="2333" status="PASS">
+        <test-method signature="login()[pri:2, instance:testng.second@306f16f3]" started-at="2023-05-10T14:19:01 IST" name="login" finished-at="2023-05-10T14:19:04 IST" duration-ms="2574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="closeApp()[pri:100, instance:testng.second@7c24b813]" started-at="2023-05-08T14:54:53 IST" name="closeApp" finished-at="2023-05-08T14:54:53 IST" duration-ms="105" status="PASS">
+        <test-method signature="closeApp()[pri:100, instance:testng.second@306f16f3]" started-at="2023-05-10T14:19:04 IST" name="closeApp" finished-at="2023-05-10T14:19:04 IST" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
       </class> <!-- testng.second -->
       <class name="testng.firstpgm">
-        <test-method signature="openapp()[pri:1, instance:testng.firstpgm@48f278eb]" started-at="2023-05-08T14:54:44 IST" name="openapp" finished-at="2023-05-08T14:54:44 IST" duration-ms="3" status="PASS">
+        <test-method signature="openapp()[pri:1, instance:testng.firstpgm@732c2a62]" started-at="2023-05-10T14:18:50 IST" name="openapp" finished-at="2023-05-10T14:18:50 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openapp -->
-        <test-method signature="logout()[pri:3, instance:testng.firstpgm@48f278eb]" started-at="2023-05-08T14:54:44 IST" name="logout" finished-at="2023-05-08T14:54:44 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method signature="login()[pri:2, instance:testng.firstpgm@48f278eb]" started-at="2023-05-08T14:54:44 IST" name="login" finished-at="2023-05-08T14:54:44 IST" duration-ms="0" status="PASS">
+        <test-method signature="login()[pri:2, instance:testng.firstpgm@732c2a62]" started-at="2023-05-10T14:18:50 IST" name="login" finished-at="2023-05-10T14:18:50 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
+        <test-method signature="logout()[pri:3, instance:testng.firstpgm@732c2a62]" started-at="2023-05-10T14:18:50 IST" name="logout" finished-at="2023-05-10T14:18:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
       </class> <!-- testng.firstpgm -->
     </test> <!-- mavenfirstxml -->
   </suite> <!-- Suite -->
